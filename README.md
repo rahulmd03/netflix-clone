@@ -1,12 +1,90 @@
-# React + Vite
+# Netflix Clone Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich Netflix clone built using **React + Vite**, integrated with **Firebase Authentication**, and powered by **The Movie Database (TMDB)** API. This project offers a responsive UI, trailer playback, user login/signup, and modern web performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+▶️ **[Visit the Live Site](https://cloneflix-rmd-app.netlify.app)**  
+> Hosted with ❤️ on Netlify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+| Home Page | Login Page |
+|-----------|------------|
+| ![Home](/screenshots/home.png) | ![Login](/screenshots/login.png) |
+
+| Movie List 1 | Movie List 2 |
+|--------------|--------------|
+| ![Movie 1](/screenshots/movies1.png) | ![Movie 2](/screenshots/movies2.png) |
+
+| 🎬 Trailer Player |
+|-------------------|
+| ![Trailer](/screenshots/trailer.png) |
+
+
+---
+
+## ✨ Features
+
+- ✅ Firebase Authentication (Signup, Login, Logout)
+- 📽️ Movie trailers powered by TMDB
+- 🔥 Firestore database (optional for user info)
+- 🎨 Responsive UI with movie posters
+- 🍿 Clean layout mimicking Netflix
+- 📦 Environment variable support for API security
+- 🚫 .env is excluded from version control
+
+---
+
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Vite
+- **Styling**: CSS
+- **Backend Services**: Firebase (Auth, Firestore)
+- **APIs**: TMDB (The Movie Database)
+- **Tools**: Axios, React Router, React Toastify
+- **Hosting**: Netlify
+
+---
+
+## 📦 Installation & Local Development
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/netflix-clone.git
+cd netflix-clone
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Create a .env File in the Root
+
+```bash
+# TMDB
+VITE_API_KEY=your_tmdb_api_key
+
+# Firebase
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+### 4️⃣ Run the App
+
+```bash
+npm run dev
+```
+

@@ -15,7 +15,7 @@ A feature-rich Netflix clone built using **React + Vite**, integrated with **Fir
 
 | Home Page | Login Page |
 |-----------|------------|
-| ![Home](./) | ![Login](./screenshots/login.png) |
+| ![Home](./screenshots/home.png) | ![Login](./screenshots/login.png) |
 
 | Movie List 1 | Movie List 2 |
 |--------------|--------------|

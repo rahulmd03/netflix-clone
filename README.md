@@ -15,15 +15,15 @@ A feature-rich Netflix clone built using **React + Vite**, integrated with **Fir
 
 | Home Page | Login Page |
 |-----------|------------|
-| ![Home](/screenshots/home.png) | ![Login](/screenshots/login.png) |
+| ![Home](./) | ![Login](./screenshots/login.png) |
 
 | Movie List 1 | Movie List 2 |
 |--------------|--------------|
-| ![Movie 1](/screenshots/movies1.png) | ![Movie 2](/screenshots/movies2.png) |
+| ![Movie 1](./screenshots/movies1.png) | ![Movie 2](./screenshots/movies2.png) |
 
 | 🎬 Trailer Player |
 |-------------------|
-| ![Trailer](/screenshots/trailer.png) |
+| ![Trailer](./screenshots/trailer.png) |
 
 
 ---
